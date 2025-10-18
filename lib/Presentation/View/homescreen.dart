@@ -104,13 +104,13 @@ class _ProfileGridItem extends ConsumerWidget {
                   placeholder: (context, url) => Container(
                     height: MediaQuery.of(context).size.height * 0.7,
                     color: Colors.grey[200],
-                    child: const Center(child: CircularProgressIndicator()), // <--- LOADING INDICATOR
+                    child: const Center(child: CircularProgressIndicator()), 
                   ),
                   
                   errorWidget: (context, url, error) => Container(
                     height: MediaQuery.of(context).size.height * 0.7,
                     color: Colors.red[100],
-                    child: const Center(child: Icon(Icons.broken_image, size: 50, color: Colors.red)), // <--- ERROR ICON
+                    child: const Center(child: Icon(Icons.broken_image, size: 50, color: Colors.red)), 
                   ),
               ),
               ),

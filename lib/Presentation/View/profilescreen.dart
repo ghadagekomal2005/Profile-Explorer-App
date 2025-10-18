@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:cached_network_image/cached_network_image.dart'; // Add dependency
+import 'package:cached_network_image/cached_network_image.dart'; 
 import 'package:profile_explorer/Data/Model/user_model.dart';
 import 'package:profile_explorer/Presentation/ViewModel/user_notifier.dart';
 
